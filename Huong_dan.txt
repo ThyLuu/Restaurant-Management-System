@@ -1,0 +1,20 @@
+Backend : sử dụng IntelliJ IDEA
+Frontend : sử dụng Visual code
+
+Đối với Frontend 
+Mở cmd trên máy
+- Phải tải NodeJS 
+	- Link : https://nodejs.org/en
+	- Kiểm tra node version trên cmd : node -v
+	- Kiểm tra npm version trên cmd : npm --version
+- Phải tải Angular : npm i @angular/cli
+	- Kiểm tra version trên cmd : 
+
+Sau đó vào Visual Code
+- Nếu thấy tệp node_modules thì hãy mở terminal trong visual code và chạy lệnh : ng s
+- Nếu không thấy tệp node_modules thì hãy chạy lệnh : npm i (quá trình tải có thể mất kha khá thời gian)
+- Nếu npm i bị lỗi hãy sử dụng : npm install --legacy-peer-deps --force
+- sau khi đã tải xong thì hãy chạy lại lệnh : ng s
+- Nếu bị lỗi, hãy sử dụng câu lệnh sau: $env:NODE_OPTIONS = "--openssl-legacy-provider" sau đó chạy lại lệnh: ng s
+- Sau đó truy cập vào dường dẫn sau: http://localhost:4200
+ 
